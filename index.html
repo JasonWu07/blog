@@ -156,12 +156,12 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-HTML学习之路" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-web前端工程师学习之路之HTML" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="web前端学习之路"><a href="#web前端学习之路" class="headerlink" title="web前端学习之路"></a>web前端学习之路</h1><h2 id="1-HTML"><a href="#1-HTML" class="headerlink" title="1.HTML"></a>1.HTML</h2><h3 id="什么是HTML？"><a href="#什么是HTML？" class="headerlink" title="什么是HTML？"></a>什么是HTML？</h3><ul>
+        <h1 id="web前端学习之路"><a href="#web前端学习之路" class="headerlink" title="web前端学习之路"></a>web前端学习之路</h1><h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><h3 id="什么是HTML？"><a href="#什么是HTML？" class="headerlink" title="什么是HTML？"></a>什么是HTML？</h3><ul>
 <li>HTML即超文本标记语言,是一种标记语言或者标签语言。<ul>
 <li><strong>超文本</strong>就是指页面可以包含图片、链接、甚至是音乐、程序等非文字元素</li>
 </ul>
@@ -180,10 +180,27 @@
 </li>
 <li><strong>head</strong>标签里面嵌套有<strong>meta</strong>标签（根元素标签）meta可以声明字符编码格式，作者信息、网站描述、关键字等信息、<strong>title</strong>标签（标题标签 定义网站的大标题）</li>
 <li>标签又可以称为<strong>元素</strong>(element) 所有的标签都可以看作是<strong>元素</strong></li>
-<li>块级元素：块级元素具有宽高属性、边框属性、内外间距属性，独自占据一行</li>
-<li>h1、h2、h3、h4、h5、h6是HTML语言中的标题标签，从h1-h6从大到小进行排列，合理的使用标题便签可以对网站进行SEO优化  块级元素</li>
+<li>块级元素：块级元素具有宽高属性、边框属性、内外间距属性，独自占据一行。</li>
+<li>行内元素：没有宽高属性，具体的宽高属性由内容的宽高支撑，行内元素可以一行放置多个，行内元素可嵌套文字或者其他行内元素</li>
+<li>行内块元素：具有块级元素的优点，也有行内元素的优点</li>
+<li>h1、h2、h3、h4、h5、h6是HTML语言中的<strong>标题标签</strong>，从h1-h6从大到小进行排列，合理的使用标题便签可以对网站进行SEO优化  块级元素</li>
+<li>p <strong>段落标签</strong> 块级元素</li>
+<li>b <strong>粗体字标签</strong> 行内元素  storng也是<strong>粗体字标签</strong> 行内元素</li>
+<li>i <strong>倾斜标签</strong> 行内元素 em <strong>倾斜标签</strong> 与i标签的不同在于：<strong>语义化</strong>不同 i标签只是物理上的斜体，em标签强调的是被强调出来的内容</li>
+<li>ins <strong>插入字标签</strong> u <strong>插入字标签</strong> </li>
+<li>del <strong>删除字标签</strong></li>
+<li>img <strong>图像标签</strong> 行内块元素 <strong><em>注意</em></strong> ：img与边框会有默认的3px的间隙。 <strong>原因</strong>：img默认是与文字的基线对齐，所以会导致图像与边框有间隙。 <strong>解决方案</strong>：使用vertical-align:middle解决 或者display：block</li>
+<li>a <strong>链接标签</strong> 行内元素 可嵌套文字或者其他行内元素，最好<strong>不要嵌套块级元素</strong>（不会报错，但是不合语法规范，浏览器会自动生成合法格式） <strong>不能</strong>嵌套a标签和input之类的标签</li>
+<li>倘若在a标签里嵌套块级元素，或者行内元素嵌套块级元素会影响布局 行内元素尽量也不要嵌套块级元素</li>
+<li>特殊字符的使用 如 空格：&amp;nbsp 版权：&amp;copy      &lt; &amp;lt  &gt; &amp;gt  更多请查阅HTML开发手册</li>
+<li>注释的使用：合理的添加注释，方便日后其他人员的维护与管理。</li>
+<li>相对路径与绝对路径：file://xxxx/xxxx/index.html (绝对路径)  ./index.html（相对路径）</li>
+<li>列表标签：有序列表(ol)、无序列表(ul)、自定义列表(dl)  有序列表和无序列表中只能放li标签  dl自定义列表标签中有dt标签，dd标签 dd标签是对dt标签的说明</li>
+<li>表格标签：table  table标签中有thead标签和tbody标签 tbody标签中有tr th td标签</li>
+<li>表单处理标签 ：form action=’’表单提交处理页面地址“ method”post/get 表单提交方式”</li>
+<li>下拉菜单标签：select options</li>
 </ul>
-<h2 id="2-CSS"><a href="#2-CSS" class="headerlink" title="2.CSS"></a>2.CSS</h2>
+
       
 
       
@@ -195,76 +212,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/blog/2019/03/17/HTML学习之路/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-我的第一篇博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/blog/2019/03/17/我的第一篇博客/">我的第一篇博客</a>
-    </h1>
-  
-
-        
-        <a href="/blog/2019/03/17/我的第一篇博客/" class="archive-article-date">
-  	<time datetime="2019-03-17T07:52:34.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-03-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="我的第一篇博客"><a href="#我的第一篇博客" class="headerlink" title="我的第一篇博客"></a>我的第一篇博客</h1><h2 id="day1"><a href="#day1" class="headerlink" title="day1"></a>day1</h2><ul>
-<li>这是我第一次写博客，不知道写点什么好，感觉<strong>好紧张</strong><ul>
-<li>要怎么写才能装作是经常写的样子呢？</li>
-<li>​</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/blog/2019/03/17/我的第一篇博客/">展开全文 >></a>
+          <a class="article-more-a" href="/blog/2019/03/17/web前端工程师学习之路之HTML/">展开全文 >></a>
         </p>
       
 
