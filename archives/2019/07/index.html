@@ -6,20 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="JasonWu07.github.io">
-  <title>个人博客</title>
+  <title>Archives: 2019/7 | 个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="前端学习之路之CSScss 一个网站分成三个部分 ：HTML提供网站架构 CSS提供网站页面的美化  Javascript提供交互  CSS：层叠样式表  层叠样式表的三种引入方式：1.行间样式 2.内部样式 3.外部样式  css层叠样式表具有三大特性：1.层叠行 例如相同的标签，后面设置的标签要是有冲突的属性会覆盖之前的属性 2.继承性 一些父级元素的样式是可以被子级元素或者子孙代元素继承的，">
+  <meta name="description" content="博客网站，利用github+hexo搭建的个人博客网站">
 <meta name="keywords" content="博客">
-<meta property="og:type" content="article">
+<meta property="og:type" content="website">
 <meta property="og:title" content="个人博客">
-<meta property="og:url" content="JasonWu07.github.io/2019/03/17/web前端工程师学习之路之CSS/index.html">
+<meta property="og:url" content="JasonWu07.github.io/archives/2019/07/index.html">
 <meta property="og:site_name" content="个人博客">
-<meta property="og:description" content="前端学习之路之CSScss 一个网站分成三个部分 ：HTML提供网站架构 CSS提供网站页面的美化  Javascript提供交互  CSS：层叠样式表  层叠样式表的三种引入方式：1.行间样式 2.内部样式 3.外部样式  css层叠样式表具有三大特性：1.层叠行 例如相同的标签，后面设置的标签要是有冲突的属性会覆盖之前的属性 2.继承性 一些父级元素的样式是可以被子级元素或者子孙代元素继承的，">
+<meta property="og:description" content="博客网站，利用github+hexo搭建的个人博客网站">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-17T12:54:27.193Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="个人博客">
-<meta name="twitter:description" content="前端学习之路之CSScss 一个网站分成三个部分 ：HTML提供网站架构 CSS提供网站页面的美化  Javascript提供交互  CSS：层叠样式表  层叠样式表的三种引入方式：1.行间样式 2.内部样式 3.外部样式  css层叠样式表具有三大特性：1.层叠行 例如相同的标签，后面设置的标签要是有冲突的属性会覆盖之前的属性 2.继承性 一些父级元素的样式是可以被子级元素或者子孙代元素继承的，">
+<meta name="twitter:description" content="博客网站，利用github+hexo搭建的个人博客网站">
   
     <link rel="alternative" href="/atom.xml" title="个人博客" type="application/atom+xml">
   
@@ -155,209 +154,43 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-web前端工程师学习之路之CSS" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
+            
+  
+  
     
-    <div class="article-entry" itemprop="articleBody">
+    
       
-        <h1 id="前端学习之路之CSS"><a href="#前端学习之路之CSS" class="headerlink" title="前端学习之路之CSS"></a>前端学习之路之CSS</h1><h2 id="css"><a href="#css" class="headerlink" title="css"></a>css</h2><ul>
-<li><p>一个网站分成三个部分 ：HTML提供网站架构 CSS提供网站页面的美化  Javascript提供交互</p>
-</li>
-<li><p>CSS：层叠样式表</p>
-</li>
-<li><p>层叠样式表的三种引入方式：1.行间样式 2.内部样式 3.外部样式</p>
-</li>
-<li><p>css层叠样式表具有三大特性：1.层叠行 例如相同的标签，后面设置的标签要是有冲突的属性会覆盖之前的属性 2.继承性 一些父级元素的样式是可以被子级元素或者子孙代元素继承的，如line-开头的属性 text-开头的属性、font-开头的属性等等 具体请翻阅css手册 3.CSS的优先级</p>
-</li>
-<li><p>权重问题：</p>
-<ul>
-<li>标签选择器的权重是 0，0，0，1</li>
-<li>类名选择器的权重是0,0,1,0</li>
-<li>id选择器的权重是1，0，0，0</li>
-<li>！important的权重是无穷大</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>.cls 这是类名选择器 #id 这是id选择器</li>
-<li>CSS中后代选择器是 比如 .box h1{} 子代选择器是.box&gt;h1{}</li>
-<li>.box.p{}这是交集选择器，既要是在.box这个类名选择器的p元素</li>
-<li>p,h1,span{}这是并集选择器</li>
-<li>a:hover{}这是伪类选择器</li>
-<li>字体属性可以连写 font:;</li>
-<li>元素的显示：display:block 显示元素 display:none;隐藏元素</li>
-<li>元素的转换：display:block 转换为块级元素 display:inline-block 转换为行内快元素</li>
-<li>背景属性：background 可以设置背景的图片 样式 颜色 图片平铺方式 图片位置 多背景</li>
-<li>background-size 设置背景大小</li>
-<li>background-options:设置背景图片附着位置</li>
-<li>设置背景半透明：background:rgba(颜色值,透明程度)</li>
-<li>line-height 行高属性，当行高等于高度时，可以实现文字的垂直居中功能</li>
-<li>盒子模型：1.IE怪异盒子模型 2.w3c标准盒子模型  </li>
-<li>ie怪异盒子模型的宽度：margin+content.width 高度：margin+content.height</li>
-<li>标准盒子模型 宽度：margin-left+border-left+padding-left+content.width+padding-right+border-right+margin+right 高度：margin-top+border-top+padding-top+content.height+padding-bottom+boder-bottom+margin-bottom</li>
-<li>什么是浮动：现在的html页面多数都是采用div+css布局，而div是典型的块级元素，块级元素的最大特点就是独自占据一行的宽高，在实现多个块级元素在一行显示就需要用到浮动，有利于页面布局，浮动会默认带有元素转换功能，转换为行内快元素。</li>
-<li><p>浮动的元素是脱离标准流的，不占据位置，那么要是不占据位置的话，影响了其他盒子，影响了页面布局怎么办？</p>
-<ul>
-<li>解决方案：1.给定一个父盒子的高度，让浮动的元素只漂浮在一定的范围之内</li>
-<li>2.清除浮动 清除浮动的本质就是解决父级元素内的子机元素浮动所造成父级元素高度为0的这个问题</li>
-</ul>
-</li>
-<li><p>清除浮动的几种方式：</p>
-<ul>
-<li>1.额外标签法 会造成代码冗余 </li>
-<li>2.给父级元素添加overflow:hidden 溢出隐藏</li>
-<li>3.使用伪类元素清除浮动  :after</li>
-<li>4.使用双伪类元素清除浮动 :before和:after</li>
-</ul>
-</li>
-<li><p>div盒子父级关系嵌套实现子级元素的垂直居中 会出现盒子塌陷的问题 无法使用margin-top实现垂直居中</p>
-<ul>
-<li>解决方案：1.给父级盒子加边框 2.善用父级盒子的padding 将子机元素挤下来 3.使用overflow:hidden</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>定位的四种方式：静态定位(static) 固定定位:fixed 相对定位 relative 绝对定位：absolute(使用绝对定位需要给父级元素添加相对定位或者绝对定位 子绝父相) 相对定位是占据位置，而绝对定位和固定定位是脱离标准流的，不占据位置</li>
-<li>z-index层叠级 这个属性只有设置了定位才能拥有</li>
-</ul>
-
       
-
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/blog/archives/2019" class="archive-year">2019</a>
         </div>
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/blog/2019/07/18/Nodejs学习/" class="archive-article-date">
+  	<time datetime="2019-07-17T19:56:37.586Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-07-18</time>
+</a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
+    	 
+        <div class="article-info info-on-right">
+          
+          
 
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http:JasonWu07.github.io/2019/03/17/web前端工程师学习之路之CSS/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
-  
-    <a href="/blog/2019/03/17/vue学习笔记/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          (no title)
-        
-      </div>
-    </a>
   
   
-    <a href="/blog/2019/03/17/web前端工程师学习之路之HTML/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"></div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -380,8 +213,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
